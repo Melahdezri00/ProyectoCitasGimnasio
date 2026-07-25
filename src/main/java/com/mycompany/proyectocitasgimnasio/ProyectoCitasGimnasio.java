@@ -11,6 +11,6 @@ package com.mycompany.proyectocitasgimnasio;
 public class ProyectoCitasGimnasio {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //Metodo main del proyecto
     }
 }
