@@ -13,5 +13,4 @@ public class ProyectoCitasGimnasio {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-}
-//listo
+} //ya
