@@ -23,16 +23,40 @@ public class Entrenador {
         this.telefonoEntre = telefono;
         this.especializacion = especializacion;
     }
-
-    public String consultarEntrenador() {
-        return "Entrenador: " + entrenadorNom + " " + apellidoEntre + " | Especialización: " + especializacion + " | Tel: " + telefonoEntre;
+    
+    public void setEntrenadorNom(String entrenadorNom) {
+        this.entrenadorNom = entrenadorNom;
     }
 
+    public void setApellidoEntre(String apellidoEntre) {
+        this.apellidoEntre = apellidoEntre;
+    }
+
+    public void setTelefonoEntre(String telefonoEntre) {
+        this.telefonoEntre = telefonoEntre;
+    }
+
+    public void setEspecializacion(String especializacion) {
+        this.especializacion = especializacion;
+    }
+    
     public String getEntrenadorNom() {
         return entrenadorNom;
     }
 
     public String getApellidoEntre() {
         return apellidoEntre;
+    }
+    
+    public String getTelefonoEntre() {
+        return telefonoEntre;
+    }
+
+    public String getEspecializacion() {
+        return especializacion;
+    }
+
+    public String consultarEntrenador() {
+        return "Entrenador: " + entrenadorNom + " " + apellidoEntre + " | Especialización: " + especializacion + " | Tel: " + telefonoEntre;
     }
 }

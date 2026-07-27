@@ -29,7 +29,55 @@ public class Clientes {
         this.telefono = telefono;
         this.correo = correo;
     }
+    
+    public String getNombre() {
+        return nombre;
+    }
+    
+    public String getApellido() {
+        return apellido;
+    }
 
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public Horario getHorario() {
+        return horario;
+    }
+
+    public Entrenador getEntrenador() {
+        return entrenador;
+    }
+
+    public Membresia getMembresia() {
+        return membresia;
+    }
+    
+    public Progreso getProgreso() {
+        return progreso;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+    
     public void setHorario(Horario horario) {
         this.horario = horario;
     }
@@ -44,18 +92,6 @@ public class Clientes {
 
     public void setProgreso(Progreso progreso) {
         this.progreso = progreso;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public Entrenador getEntrenador() {
-        return entrenador;
-    }
-
-    public Membresia getMembresia() {
-        return membresia;
     }
 
     public String consultar() {
