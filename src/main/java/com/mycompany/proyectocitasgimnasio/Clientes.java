@@ -107,4 +107,4 @@ public class Clientes {
                 + "\n  - " + infoEntrenador
                 + "\n  - Progreso Físico: " + infoProgreso;
     }
-}
+}//
