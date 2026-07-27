@@ -16,19 +16,7 @@ public class Rutina {
 
     public Rutina() {
     }
-
-    public void registrarRutina(String cliente, String tipoRutina, String tipoEjercicio, int repeticiones) {
-        this.cliente = cliente;
-        this.tipoRutina = tipoRutina;
-        this.tipoEjercicio = tipoEjercicio;
-        this.repeticiones = repeticiones;
-    }
-
-    public String consultarRutina() {
-        return "Cliente: " + cliente + " | Rutina: " + tipoRutina 
-                + " | Ejercicio: " + tipoEjercicio + " | Repeticiones: " + repeticiones;
-    }
-
+   
     public String getCliente() {
         return cliente;
     }
@@ -43,5 +31,33 @@ public class Rutina {
 
     public int getRepeticiones() {
         return repeticiones;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setTipoRutina(String tipoRutina) {
+        this.tipoRutina = tipoRutina;
+    }
+
+    public void setTipoEjercicio(String tipoEjercicio) {
+        this.tipoEjercicio = tipoEjercicio;
+    }
+
+    public void setRepeticiones(int repeticiones) {
+        this.repeticiones = repeticiones;
+    }
+
+    public void registrarRutina(String cliente, String tipoRutina, String tipoEjercicio, int repeticiones) {
+        this.cliente = cliente;
+        this.tipoRutina = tipoRutina;
+        this.tipoEjercicio = tipoEjercicio;
+        this.repeticiones = repeticiones;
+    }
+
+    public String consultarRutina() {
+        return "Cliente: " + cliente + " | Rutina: " + tipoRutina 
+                + " | Ejercicio: " + tipoEjercicio + " | Repeticiones: " + repeticiones;
     }
 }
