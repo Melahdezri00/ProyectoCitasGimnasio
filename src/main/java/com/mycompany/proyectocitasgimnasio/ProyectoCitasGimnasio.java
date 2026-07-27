@@ -14,4 +14,3 @@ public class ProyectoCitasGimnasio {
         System.out.println("Hello World!");
     }
 }
-//listo
