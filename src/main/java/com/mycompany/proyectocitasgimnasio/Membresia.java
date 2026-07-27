@@ -16,6 +16,30 @@ public class Membresia {
     public Membresia() {
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public String getDuracion() {
+        return duracion;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setDuracion(String duracion) {
+        this.duracion = duracion;
+    }
+  
     public void registrarMembresia(String nombre, double precio, String duracion) {
         this.nombre = nombre;
         this.precio = precio;
